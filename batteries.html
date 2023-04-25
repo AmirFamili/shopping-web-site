@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/important.css" rel="stylesheet">
+    <title>الوپاور | فروشگاه باتری</title>
+
+      <link href="css/font.css" rel="stylesheet">
+      <link href="css/important.css" rel="stylesheet">
+      <link href="css/style-batteries.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+
+    <header>
+        <div id="header-up">
+         <div id="nav-bar">
+            <label class="hamburger-menu">
+               <input type="checkbox"/>
+              
+            </label>
+            <aside class="sidebar">
+               <nav id="nav-hamb-menu">
+                  <a id="menu-button"  href="index.html">خانه</a>
+                  <a id="menu-button" href="#batteries">خرید باتری خودرو</a>
+                  <a  id="menu-button"  href="buy-with-model.html">سفارش باتری بر اساس مدل خودرو</a> 
+                  <a id="menu-button" href="index.html#articles-main">اخبار و مقالات </a>
+                  <a id="menu-button" href="index.html#about-allopower">درباره الوپاور</a>       
+  
+                </nav>
+          </aside>
+        </div>
+           <a href="index.html"><div class="logo">
+              <img id="logo" src="images/logo.png">
+              <h5>الوپاور فروش آنلاین باتری خودرو</h5>
+           </div></a>
+           <div id="search">
+              <input id="ty-search" type="text" placeholder="جستجو در فروشگاه" >
+              <button id="but-search"><i class="fa fa-search"></i></button>
+           </div>
+           <a id="cart" href="cart.html"><p class="quantity">0</p><img id="cart-image" src="images/cart.png"></a> 
+        </div>
+        <div id="header-bottom">
+        
+           <nav >  
+              <a  href="index.html">خانه</a>
+              <a id="but-batteries" href="#batteries">خرید باتری خودرو</a>
+              <a id="but-buy-with-model"  href="buy-with-model.html">سفارش باتری بر اساس مدل خودرو</a> 
+              <a id="but-articles"  href="index.html#articles-main">اخبار و مقالات </a>
+              <a id="but-about-allopower"  href="index.html#about-allopower">درباره الوپاور</a>       
+           </nav>
+  
+        </div>
+          
+       </header>
+
+       <div id="title">
+         <h1 >فروشگاه الوپاور</h1>
+         <h5>خرید باتری ماشین با ارسال و نصب رایگان در تهران</h5>
+       </div>
+       
+       <main>
+         
+         
+         <div id="batteries">
+
+            <div class="battery">
+               <a href="#"><img id="bat-img" src="images/battery-premium.jpg" alt=""></a>
+               <h6>سپاهان باتری</h6>
+               <h1>باتری پریمیوم 60 آمپر</h1>
+               <h3 id="price">1985000 تومان</h3>
+               <button class="button-battery">افزودن به سبد خرید</button>
+            </div>
+            
+            <div class="battery">
+               <a href="#"><img id="bat-img" src="images/battery-premium.jpg" alt=""></a>
+               <h6>سپاهان باتری</h6>
+               <h1>باتری پریمیوم 90 آمپر</h1>
+               <h3 id="price">985580 تومان</h3>
+               <button class="button-battery">افزودن به سبد خرید</button>
+            </div>
+           
+           
+         </div>
+
+         <div id="filter">
+
+            <div id="price-filter">
+               <h4>فیلتر بر اساس قیمت باتری:</h4>
+               <div class="min-max-range">
+                  <div class="progress"></div>
+                  <div class="range-input">
+
+                     <input 
+                     onclick="filterProductPrice()"   type="range" min="800000" max="5000000"
+                     value="800000" class="range-min" id="min">
+                     <input onclick="filterProductPrice()" type="range" min="800000" max="5000000"
+                     value="25000001" class="range-max" id="max">
+
+                  </div>
+                  
+               </div>
+
+  
+               
+
+               <div class="min-max">
+
+
+                 <div class="max">
+                 
+                     <input class="input-max" type="number" value="5000000" min="2500001"
+                    max="5000000"> <span>تومان</span>
+                 </div>
+                  <div class="space
+                  ">-</div>
+
+                 <div class="min">
+                   
+                    <input class="input-min" type="number" value="800000"
+                    min="800000"
+                    max="2500000">
+                    <span>تومان</span>
+                </div>
+                
+               </div>
+              
+            </div> 
+            
+            <h4>فیلتر بر اساس برند:</h4>
+
+            <div id="brand-filter">
+               <div id="every-brand" >
+                  <button onclick="filterProduct('all')" > تمام برند ها</button>
+                  </div>
+
+               <div id="every-brand" >
+                  <button onclick="filterProduct('orbital')">اوربیتال وان</button>
+               </div>
+
+               <div id="every-brand" >
+                  <button onclick="filterProduct('suzuki')" > سوزوکی</button>
+               </div>
+               <div id="every-brand" >
+                  <button onclick="filterProduct('primium')">اوربیتال پریمیوم</button>
+                  
+               </div>
+               <div id="every-brand" >
+               <button onclick="filterProduct('efb')" >اوربیتال EFB</button>
+               </div>
+               
+            </div>
+            
+            <h4>فیلتر بر اساس آمپر:</h4>
+
+            <div id="amper-filter">
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('all')">تمام آمپر ها</button>
+                 
+               </div>
+
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('35')">35 آمپر</button>
+                 
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('45')">45 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('50')">50 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('55')">55 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('60')">60 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('66')">66 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('70')">70 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('74')">74 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('80')">80 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('90')">90 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('100')">100 آمپر</button>
+               </div>
+
+               <div id="every-amper">
+                  <button onclick="filterProduct('150')">150 آمپر</button>
+               </div>
+               <div id="every-amper">
+                  <button onclick="filterProduct('170')">170 آمپر</button>
+               </div>
+               <div id="every-amper">
+                  <button onclick="filterProduct('200')">200 آمپر</button>
+               </div>
+            </div>
+              
+         </div>
+
+         
+        
+       </main>
+
+ 
+
+
+       <footer>
+        <div id="footer-up">
+           <div id="short-about">
+              <h4>درباره ما</h4>
+              <p>نمایندگی فعال فروش سپاهان باتری است که با اتکا به تجارب و پشتوانه قوی فنی و تخصصی در زمینه توزیع باتری‌های خودرو با بهره‌گیری از نیروی متخصص و کارآمد همواره در تلاش بوده تا بهترین خدمت را به مشتریان عزیز ارائه دهد .</p>
+  
+           </div>
+           <div id="short-articles">
+              <h4>مقالات</h4>
+              <p><a>باتری سپاهان باتری</a></p>
+              <p><a>باتری 60آمپر</a></p>
+              <p><a>باتری صبا باتری</a></p>
+              
+              
+           </div>
+           <div id="info">
+              <h4>ارتباط با ما</h4>
+            
+              <p> <a href="http://maps.google.com/?q=1200 پ۳۷،، استان تهران، تهران، منطقه ۴، حکیمیه بلواربهار خیابان پورمختار(فروردین، بلوار بهار،، اتوچکاپ محمد, Iran"><i class="fa fa-map-marker"></i>تهران - حکیمیه بلواربهار خیابان پورمختار</a></p>
+              
+             <p><a href="tel:09122479585"><i class="fa fa-phone"></i>0912-2479585</a></p>
+             
+             <p> <a herf="mailto:info@allobattery.com"><i class="fa fa-envelope"></i>info@allobattery.com</a></p>
+  
+             
+              <div id="icons-for-info">
+                 <a href="https://www.instagram.com/allo_power/"><i class="fa fa-instagram"></i></a> 
+                 <a href="https://www.telegram.me/allopower"> <i class="fa fa-telegram"></i></a>
+                 <a href="https://www.facebook.com/people/%D8%A7%D9%84%D9%88%D9%BE%D8%A7%D9%88%D8%B1/100079753293206/?notif_t=page_post_liker_invite&notif_id=1602194549289428&ref=m_notif"> <i class="fa fa-facebook"></i></a>
+                
+              </div>
+             
+  
+           </div>
+           <div id="footer-icon">
+             <a href="#header-up"><img id="icon-logo" src="images/icon-logo.png">
+           </div></a> 
+  
+        </div>
+        <div id="footer-bottom">
+           <h6>1398-1402© کلیه حقوق این پایگاه متعلق به <a href="#header-up">"الوپاور"</a> می باشد.</h6>
+  
+  
+        </div>
+  
+  
+     </footer>
+       <script src="js/data.js"></script>
+       <script src="js/batteries.js"></script>
+       <script src="js/javascript.js"></script>
+
+
+</body>
+</html>

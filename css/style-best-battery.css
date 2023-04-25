@@ -1,0 +1,102 @@
+main{
+    width:80%;
+    margin-left:10%;
+    margin-right: 10%;
+}
+#img-top{ 
+    width: 60%;
+   margin-top: 120px; 
+   margin-bottom: 50px;
+   margin-left:20%;
+   margin-right: 20%;
+   border-radius: 10px;
+   box-shadow: 2px 2px 6px #555555;
+}
+
+#img-car{
+    width: 60%;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    margin-left:20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #555555;
+}
+h1{
+    text-shadow: 1px 2px 5px #555555;
+    text-align: center;
+    font-size: 27px;
+    color: rgb(5, 5, 75);
+    margin:20px;
+}
+#table{
+    
+    background-color: #f08913;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #555555;
+    padding: 5%;
+    width: 100%;
+   
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(238, 239, 239);
+}
+
+td{
+    padding: 10px;
+    width: 50%;
+    border:1px solid  #fffafa ;
+}
+p{
+    
+    margin: 10px 0px;
+}
+ul{
+    margin: 5px 0px;
+}
+#icon-image{
+    width: 40%;
+    margin-top:10px; 
+    margin-bottom: 20px;
+    margin-left:30%;
+    margin-right: 30%;
+}
+@media (max-width:450px) {
+    #img-top{ 
+        width: 95%;
+        margin-left:2.5%;
+        margin-right: 2.5%;
+    }
+
+
+
+    #img-car{
+        width: 85%;
+        margin-top: 40px; 
+        margin-bottom: 40px;
+        margin-left:7.5%;
+        margin-right: 7.5%;
+       
+    }
+    h1{
+        
+        font-size: 23px;
+       
+    }
+   
+    
+    td{
+        font-size: 15px;
+       
+    }
+   
+    #icon-image{
+        width: 50%;
+
+        margin-left:25%;
+        margin-right: 25%;
+    }
+}

@@ -1,0 +1,662 @@
+
+
+
+*{
+    box-sizing: border-box;  
+    margin: 0;
+  }
+  body{
+      direction: rtl;
+      font-family:vazir;
+      background-color: #f1f1f6;
+      width: 100%;
+      
+  }
+ 
+        
+  
+
+  
+  #img-starter{
+
+   height: 500px;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   border-radius: 5px;
+   box-shadow:0 3px 6px #11182f;
+  }
+  
+  
+  #starter h1{
+    
+    color:#f1f1f9;
+    text-align: center;
+    z-index: -1;
+    padding-top: 130px;
+    text-shadow:2px 2px 2px #171716;
+  }
+
+  #starter h4{
+    
+    color:#f1f1f9;
+    text-align: center;
+    z-index: -1;
+    text-shadow:2px 2px 2px #171716;
+    font-size: 17px;
+  }
+  #but-starter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+  }
+  #b-right{
+    margin:  15px 12px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color:  rgb(8, 22, 215);
+    color:#eaeaf9;
+    box-shadow:2px 2px 4px #171716;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+    text-shadow:2px 2px 3px #11182f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #b-left{
+    padding:10px 20px;
+    border-radius: 10px;
+    box-shadow:3px 3px 4px #171716;
+    color:#f1f1f9;
+    border:1.5px solid #f1f1f9;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+    text-shadow:2px 2px 2px #11182f;
+    text-decoration: none;
+  }
+  #b-right:hover{
+    background-color: #f1f1f9;
+    color:rgb(8, 22, 215);
+    text-shadow:1px 1px 4px #11182f;
+  }
+#b-left:hover{
+    background-color: #f1f1f9;
+    color:rgb(8, 22, 215);
+    text-shadow:1px 1px 4px #11182f;
+}
+  #b-right:active{
+    transform: scale(0.98);
+  }
+
+  #b-left:active{
+    transform: scale(0.98);
+  }
+  
+  
+  main{
+    width: 100%; 
+    margin: 0;
+  }
+
+  #icons{  
+    margin-top: 250px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  #icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+  }
+  #icon-type{
+    max-width: 150px;
+    margin-right: 10px;
+
+  }
+  #icon-type h4{
+    font-size: 16px;
+  }
+  #icon-type h6{
+    color: #444;
+    font-size: 12px;
+  }
+
+  #about-allopower{
+    background-color: #fcfcfc;
+    margin-top: 50px;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     
+  }
+  #about-allopower #type{
+  padding-top: 20px;
+  width: 80%;
+  } 
+  #about-allopower  #type h1{
+   text-shadow:1px 1px 4px rgb(0,0,0,0.5);
+  }
+   #about-allopower  #type p {
+  margin-right: 20px;
+  margin-top: 8px;
+  }
+  #about-allopower  #type ul {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    }
+
+  #about-allopower video{
+    width:50%;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow:1px 1px 5px #171716; 
+   
+  } 
+  #buy-with-model{
+   padding-top: 120px;
+  }
+  
+  #buy-with-model h1{
+   text-align: center;
+  }
+  #buy-with-model h5{
+    text-align: center;
+    margin-top: 8px;
+    color: #565555;
+    
+      }
+  #battery-for-cars{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #iran-car{
+    margin:0 50px;
+    padding: 30px 0;
+    background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow:1px 1px 6px rgb(0,0,0,0.3);
+   height:80%;
+  }
+
+  #china-car{
+    margin:0 50px;
+    padding: 30px 0;
+    background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow:1px 1px 6px rgb(0,0,0,0.3);
+   height:80%;
+  }
+
+  #forein-car{
+    margin:0 50px;
+    background-color: #ffffff;
+    padding: 43px 0;
+    border-radius: 10px;
+    box-shadow:1px 1px 6px rgb(0,0,0,0.3); 
+    height:80%;
+    
+  }
+  #iran-car h2{
+    font-size: 17px;
+    text-align: center;
+   padding-bottom: 20px;
+  }
+  #china-car h2{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+   padding-bottom: 25px;
+  }
+  #forein-car h2{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #iran-car img{
+    width:100%;
+    height:80%;
+   
+  }
+
+
+  #china-car img{
+    width:100%;
+    height:80%;
+   
+  }
+
+  #forein-car img{
+    width:100%;
+    height:80%;
+  }
+  #iran-car a{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color:  rgb(8, 22, 215);
+    color:#eaeaf9;
+    box-shadow:2px 2px 4px #171716;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+    text-shadow:2px 2px 3px #11182f;
+    text-decoration: none;
+   
+    
+  }
+
+  #china-car a{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color:  rgb(8, 22, 215);
+    color:#eaeaf9;
+    box-shadow:2px 2px 4px #171716;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+    text-shadow:2px 2px 3px #11182f;
+    text-decoration: none;
+   
+    
+  }
+
+  #forein-car a{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color:  rgb(8, 22, 215);
+    color:#eaeaf9;
+    box-shadow:2px 2px 4px #171716;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+    text-shadow:2px 2px 3px #11182f;
+    text-decoration: none;
+    
+  }
+  #iran-car a:hover{
+    background-color: #f1f1f9;
+    color:rgb(8, 22, 215);
+    text-shadow:1px 1px 4px #11182f;
+  }
+
+
+  #china-car a:hover{
+    background-color: #f1f1f9;
+    color:rgb(8, 22, 215);
+    text-shadow:1px 1px 4px #11182f;
+  }
+
+  #forein-car a:hover{
+    background-color: #f1f1f9;
+    color:rgb(8, 22, 215);
+    text-shadow:1px 1px 4px #11182f;
+  }
+  #iran-car a:active{
+     transform: scale(0.98);
+  }
+
+
+  #china a:active{
+    transform: scale(0.98);
+ }
+
+  #forein-car  a:active{
+    transform: scale(0.98);
+ }
+#buttom-car-model{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+  
+}
+ 
+#articles-main{
+  margin-top: 100px;
+  background-color: #fcfcfc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#articles-main h1{
+  text-align: center;
+}
+#articles-main h5{
+  text-align: center;
+  margin-top: 8px;
+  color: #565555;
+      
+}
+#articles{
+  display: grid;
+  grid-auto-flow:column;
+  grid-auto-columns: 33%;
+  overflow-x:auto;
+  
+  overscroll-behavior-inline:contain ;
+  
+}
+#box-article{
+  position: relative;
+  width: 350px;
+  background-color: #f1f1f6;
+  margin: 30px 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow:1px 1px 6px rgb(0,0,0,0.3);
+}
+#box-article img{
+  width: 100%;
+  height:240px
+
+}
+#box-article h4{
+  margin-top:20px;
+  margin-right:20px;
+}
+#box-article p{
+ 
+  font-size: 15px;
+  
+}
+#article-paragragh{
+height: 100px;
+overflow-y:auto;
+margin:15px 30px;
+margin-bottom: 45px;
+}
+#btn-article{
+ position:absolute;
+ bottom: 10px;
+ margin:10px 30px;
+}
+#box-article p a{
+
+  font-weight: bold;
+ cursor: pointer;
+ scroll-behavior: auto;
+ color: rgb(197, 51, 51);
+}
+#box-article p a:hover{
+  color: rgb(255, 51, 0);
+}
+#box-article p a:active{
+  color: rgb(255, 51, 0);
+  font-size: 14px;
+}
+
+@media (max-width:1045px){
+  #battery-for-cars{
+    display: block;
+   }
+   #battery-for-cars #forein-car{
+    margin-top: 80px;
+   }
+   #forein-car h2{
+  font-size: 25px;
+  }
+  #china-car h2{
+    font-size: 25px;
+  }
+  #iran-car h2{
+    font-size: 25px;
+  }
+   #battery-for-cars #china-car{
+    margin-top: 80px;
+   }
+}
+
+
+
+
+@media (max-width:770px){
+ 
+  #starter h1{
+    padding-top: 180px;
+  }
+  
+   h1{
+    font-size: 26px;
+  }
+  #forein-car h2{
+    font-size: 20px;
+    }
+    #china-car h2{
+      font-size: 20px;
+    }
+    #iran-car h2{
+      font-size: 20px;
+    }
+  h4{
+    font-size: 15px;
+  }
+  h5{
+    font-size: 15px;
+  }
+  
+  #about-allopower{
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #about-allopower #type{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+   
+  }
+  #about-allopower video{
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+  #about-allopower p{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  #about-allopower li{
+    font-size: 16px;
+  }
+}
+
+
+
+
+@media (max-width:740px){
+  #icon-box{
+    display: block;
+  }
+ 
+}
+
+
+
+@media (max-width:720px){
+
+  #about-allopower video{
+    
+    margin-right: 170px;
+  }
+}
+
+@media (max-width:630px){
+
+  #about-allopower video{
+   
+    margin-right: 150px;
+  }
+}
+
+@media (max-width:620px){
+  #icon-box img{
+    
+    width: 50px;
+    
+  }
+  #icon-box h4{
+    font-size: 15px;
+  }
+  #icon-box h6{
+    font-size: 11px;
+  }
+}
+
+@media (max-width:600px){
+ 
+  #icon-box h4{
+    font-size: 13px;
+  }
+  #icon-box h6{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:500px) {
+ 
+  #about-allopower video{
+  
+    margin-right: 120px;
+  }
+}
+
+@media (max-width:580px)and(min-width:499){
+
+  #about-allopower video{
+   width:70%;
+    margin-right: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) and (min-width:300px){
+  #img-starter{
+  height: 350px;
+  
+ }
+
+ #starter h1{
+  font-size: 23px;
+ padding-top: 100px;
+ 
+}
+#starter h4{
+  font-size: 15px;
+}
+
+
+#b-right{
+  
+  font-size: 12px;
+  
+}
+#b-left{
+  font-size: 12px;
+}
+
+
+
+#icons{  
+  margin-top: 140px;
+  
+}
+
+#icon-type{
+  max-width: 150px;
+  margin-right: 5px;
+
+}
+#icon-type h4{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#icon-type h6{
+  color: #444;
+  font-size: 11px;
+}
+
+#about-allopower video{
+  width:90%;
+   margin-right:20px;
+   margin-left: auto;
+ }
+
+#buy-with-model{
+  padding-top: 50px;
+ }
+
+ #buy-with-model h1{
+ 
+  font-size: 23px;
+ }
+
+ 
+
+ #iran-car img{
+   height:70%;
+  
+ }
+
+
+ #china-car img{
+   height:70%;
+  
+ }
+
+ #forein-car img{
+   height:70%;
+ }
+ 
+
+
+
+#articles-main h1{
+  font-size: 23px;
+}
+
+
+#box-article{
+ width: 250px;
+}
+#box-article img{
+
+ height:140px
+
+}
+
+
+}
